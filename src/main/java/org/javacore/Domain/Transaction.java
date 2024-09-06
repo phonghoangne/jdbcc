@@ -8,7 +8,7 @@ public class Transaction {
     private String transactionType;
     private double amount;
     private Timestamp transactionDate;
-
+    public Transaction(){};
     public Transaction(int id, int accountId, String transactionType, double amount, Timestamp transactionDate) {
         this.id = id;
         this.accountId = accountId;
